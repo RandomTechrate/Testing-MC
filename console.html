@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IceMC Console</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Server Console</h1>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="index.html">Logout</a>
+        </nav>
+        <div id="logs">
+            <h2>Server Logs</h2>
+            <pre id="log-output">Loading logs...</pre>
+        </div>
+        <div id="command">
+            <h2>Send Command</h2>
+            <input type="text" id="command-input" placeholder="Enter command">
+            <button id="send-command">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
